@@ -9,6 +9,10 @@
     "format": "prettier src/**/* --write",
     "build": "rimraf dist && tsc && rollup -c"
   },
+  "repository": {
+    "type": "git",
+    "url": "nsmith7989/mocked-apollo-link"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

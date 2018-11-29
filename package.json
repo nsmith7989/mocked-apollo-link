@@ -13,7 +13,12 @@
     "type": "git",
     "url": "nsmith7989/mocked-apollo-link"
   },
-  "keywords": [],
+  "keywords": [
+    "apollo",
+    "graphql",
+    "jest",
+    "graphql-tools"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {

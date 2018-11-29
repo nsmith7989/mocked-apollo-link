@@ -17,5 +17,5 @@
     "esModuleInterop": true
   },
   "include": ["./typings/**/*", "./src/**/*", "./test/**/*"],
-  "exclude": ["./node_modules", "./dist", "./lib"]
+  "exclude": ["./node_modules", "./dist"]
 }

@@ -12,7 +12,7 @@ function onwarn(message) {
 }
 
 export default [
-  // main
+  // for browser
   {
     input: 'dist/index.js',
     output: {

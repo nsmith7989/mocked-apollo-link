@@ -25,6 +25,7 @@
     "prettier": "^1.15.2",
     "react": "^16.6.3",
     "react-apollo": "^2.3.2",
+    "react-dom": "^16.6.3",
     "rimraf": "^2.6.2",
     "rollup": "^0.67.3",
     "rollup-plugin-commonjs": "^9.2.0",

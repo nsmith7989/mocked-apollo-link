@@ -1,4 +1,4 @@
-import { introspectionResult } from '../../test-support/introspection-result';
+import { introspectionResult } from '../test-support/introspection-result';
 import { execute } from 'apollo-link';
 import { makeMockLink } from '../make-mock-link';
 import waitFor from 'wait-for-observables';

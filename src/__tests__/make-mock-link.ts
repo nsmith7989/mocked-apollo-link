@@ -54,7 +54,7 @@ test('uses custom mocks if provided', async () => {
   );
 });
 
-test('can use custom array lenght using mock list', async () => {
+test('can use custom array length using mock list', async () => {
   const mockLength = 4;
   const mocks = {
     Query() {

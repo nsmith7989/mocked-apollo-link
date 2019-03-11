@@ -38,13 +38,6 @@ export class MockedProvider extends React.Component<MockedProviderProps, MockedP
 
   // deal with clean up
   public componentWillUnmount() {
-    if (!this.state.client.queryManager) {
-      return;
-    }
-    const scheduler = this.state.client.queryManager.scheduler;
-    // cleanup polling
-    Object.keys(scheduler.registeredQueries).forEach(id => scheduler.stopPollingQuery(id));
-    // cleanup interval
-    Object.keys(scheduler.intervalQueries).forEach((id: any) => scheduler.fetchQueriesOnInterval(id));
+    this.state.client.stop();
   }
 }
